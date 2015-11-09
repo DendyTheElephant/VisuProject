@@ -1,0 +1,9 @@
+#taper dans le terminal: sed -i -f cmdDatas.txt datas.csv
+#remplacement des ";" par des espaces
+s/;/ /g
+#
+#suppression des espaces en fin de ligne
+s/ $//g
+#
+#remplacement des "mq" par des 0
+s/mq/0/g

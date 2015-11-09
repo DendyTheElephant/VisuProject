@@ -1,0 +1,13 @@
+add_executable(
+	visu
+	main.cpp
+	DataLoader.cpp
+	SphericalToCartesian.cpp
+	Stations.cpp	
+)
+
+target_link_libraries(
+	essaiEigen
+	${Boost_SYSTEM_LIBRARY}
+	${Boost_TIMER_LIBRARY}
+)
