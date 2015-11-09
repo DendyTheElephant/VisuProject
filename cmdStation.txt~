@@ -1,3 +1,0 @@
-#taper dans le terminal: sed -i -f cmdStation.txt postesSynop.csv
-#remplacement des ";" par des espaces
-s/;/ /g
